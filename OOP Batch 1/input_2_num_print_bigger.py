@@ -6,8 +6,8 @@
 #Print num1 if it's greater
 #Print num2 if not
 
-num1 = float(input("Please enter the 1st number: "))
-num2 = float(input("Please enter the 2nd number: "))
+num1 = int(input("Please enter the 1st number: "))
+num2 = int(input("Please enter the 2nd number: "))
 
 if num1 > num2:
     print(f"The bigger number is: {num1}")
