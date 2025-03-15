@@ -3,3 +3,6 @@
 #Loop numbers from 0 to 100
 #Increase by 2 to get the even numbers
 #Print the even numbers
+
+for num in range(0,102,2):
+    print(num)
