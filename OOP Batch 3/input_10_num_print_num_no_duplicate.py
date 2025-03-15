@@ -10,3 +10,16 @@
 #Add it to the 2nd list (unique_num)
 
 #Prints non repeating number
+
+number = []
+
+for i in range(10):
+    num = int(input(f"Enter a number {i+1}: "))
+    number.append(num)
+
+unique_num = []
+for num in number:
+    if number.count(num) == 1:
+        unique_num.append(num)
+
+print("These numbers don't repeat: ", unique_num)
