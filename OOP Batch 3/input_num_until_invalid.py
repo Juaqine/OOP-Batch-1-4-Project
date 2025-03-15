@@ -11,3 +11,19 @@
 
 #If the input is not a valid integer (invalid input)
 #Print an error message and terminate the program
+
+numbers = []
+
+while True:
+    try:
+        num = int(input("Enter a number: "))
+
+        if num in numbers:
+            print("Duplicate")
+        else:
+            print("Unique")
+            numbers.append(num)
+
+    except ValueError:
+        print("Invalid input. Program terminated.")
+        break
