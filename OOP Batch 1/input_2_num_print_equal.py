@@ -5,3 +5,11 @@
 #Check if both numbers are equal
 #Print "Equal" if true
 #Print "Invalid" if false
+
+num1 = float(input("Please enter the 1st number: "))
+num2 = float(input("Please enter the 2nd number: "))
+
+if num1 == num2:
+    print("Equal")
+else:
+    print("Invalid")
