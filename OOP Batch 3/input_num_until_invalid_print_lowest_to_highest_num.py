@@ -6,3 +6,14 @@
 
 #If the user input is invalid:
 #Print invalid input and the ascending order of number entered and stop the loop
+
+numbers = []
+
+while True:
+    try:
+        user_input = int(input("Enter a number: "))
+        numbers.append(user_input)
+        numbers.sort()
+    except ValueError:
+        print("Invalid input. The ascending order of what you entered is: ", numbers)
+        break
