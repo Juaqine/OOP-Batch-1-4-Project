@@ -7,7 +7,7 @@
 #Increase num by 1
 
 num = 0
- num <= 100:
+while num <= 100:
     if num % 2 != 0:
         print(num)
     num += 1
