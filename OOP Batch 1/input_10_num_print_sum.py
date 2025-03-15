@@ -5,3 +5,11 @@
 #Ask the user to enter a number 10 times
 #Add the number to the total
 #Print the sum of all numbers
+
+total = 0
+
+for i in range(10):
+    number = float(input(f"Enter number {i+1}: "))
+    total += number 
+
+print("The sum of all numbers is:", total)
