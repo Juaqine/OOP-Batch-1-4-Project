@@ -7,3 +7,12 @@
 #Add number to diff variable
 #Subtract diff from num1
 #Print result
+
+diff = 0
+num1 = float(input("Enter number 1: "))
+
+for i in range(9):
+    number = float(input(f"Enter number {i+2}: "))
+    diff += number
+
+print("The difference of all numbers is:", num1 - diff)
