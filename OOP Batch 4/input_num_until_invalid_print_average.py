@@ -9,3 +9,14 @@
 
 #If the user input is invalid:
 #Print invalid input and the average of numbers (w/ 2 decimals only) and stops the loop.
+
+numbers = []
+while True:
+    try:
+        num = int(input(f"Enter a number: "))
+        numbers.append(num)
+        total = sum(numbers)
+        average = total / len(numbers)
+    except ValueError:
+        print(f"Invalid input. The average of numbers is: {average:.2f}")
+        break
