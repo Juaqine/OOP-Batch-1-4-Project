@@ -4,3 +4,8 @@
 #Ask the user to input the 2nd number
 #Computes the first inputted number raised to the exponent of the second inputted number.
 #Prints the result
+
+num1 = float(input("Please enter the 1st number: "))
+num2 = float(input("Please enter the 2nd number: "))
+
+print("The result is: ", num1 ** num2)
