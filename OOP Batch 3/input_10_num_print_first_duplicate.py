@@ -10,3 +10,16 @@
 #Add it to the 2nd list (unique_num)
 
 #Prints repeating number
+
+number = []
+
+for i in range(10):
+    num = int(input(f"Enter a number {i+1}: "))
+    number.append(num)
+
+duplicates = []
+for num in set(number):
+    if number.count(num) > 1:
+        duplicates.append(num)
+
+print("These numbers appear more than once: ", duplicates)
