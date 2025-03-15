@@ -5,3 +5,9 @@
 #Identify the smaller and larger number
 #Loop from the smaller number + 1 to the larger number - 1
 #Print each number in the range
+
+num1 = float(input("Please enter the 1st number: "))
+num2 = float(input("please enter the 2nd number: "))
+
+for i in range(num1+1,num2):
+    print(i)
