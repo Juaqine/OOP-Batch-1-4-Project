@@ -7,3 +7,13 @@
 #If the user input is invalid:
 #The program goes through the list and check the highest number
 #Print invalid input and the highest number entered and stop the loop
+
+numbers = []
+
+while True:
+    try:
+        num = int(input("Enter a number: "))
+        numbers.append(num)
+    except ValueError:
+        print(f"Invalid input, the lowest number is: {max(numbers)}")
+        break
